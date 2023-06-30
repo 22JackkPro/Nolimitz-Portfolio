@@ -1,0 +1,59 @@
+.portfolio__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+.portfolio__item {
+    background: var(--color-box-primary);
+    padding: 1rem;
+    border-radius: 2rem;
+    transition: var(--transition);
+}
+
+.portfolio__item:hover {
+    background: var(--color-bg-variant);
+}
+
+.portfolio__item-image {
+    border-radius: 1.6rem;
+    overflow: hidden;
+}
+
+.portfolio__item h3 {
+    margin: 1.2rem 0 2rem;
+}
+
+.portfolio__item-cta {
+    display: flex;
+    gap: 4rem;
+}
+
+.portfolio__item-cta .btn {
+    border-radius: 1.5rem;
+}
+
+.portfolio__item-cta .btn:hover {
+    background: var(--color-primary);
+}
+
+.portfolio__item-cta .btn-primary:hover {
+    background: var(--color-box-primary);
+    color: white;
+}
+
+/*================ MEDIA QUERIES ( MEDUIM DEVICE ) =================*/
+@media screen and (max-width: 1024px) {
+    .portfolio__container{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+/*================ MEDIA QUERIES ( SMALL DEVICE ) =================*/
+@media screen and (max-width: 600px) {
+    .portfolio__container{
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+}
