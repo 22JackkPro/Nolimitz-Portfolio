@@ -5,6 +5,7 @@ import ME from '../../assets/me.png'
 import HeaderSocials from './headerSocials'
 import LG from '../../assets/logo portfollio.png'
 import {MdVerified} from 'react-icons/md'
+
 // import Aos from 'aos'
 // import { useEffect } from 'react'
 // import 'aos/dist/aos.css'

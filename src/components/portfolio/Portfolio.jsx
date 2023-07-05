@@ -1,6 +1,6 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/Portfolio1.webp'
+import IMG1 from '../../assets/Portfolio1.png'
 import IMG2 from '../../assets/Portfolio2.webp'
 import IMG3 from '../../assets/Portfolio3.webp'
 import IMG5 from '../../assets/Portfolio5.webp'
@@ -15,42 +15,42 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'Love You Rin :)',
+    title: 'Convert Decimal to Binary App',
     github: 'https://github.com/22JackkPro',
-    demo: 'https://dribbble.com/Jackk22'
+    demo: 'https://lively-empanada-c164da.netlify.app'
   },
   {
     id: 2,
     image: IMG2,
-    title: 'Love You Rin :)',
+    title: '...!',
     github: 'https://github.com/22JackkPro',
     demo: 'https://dribbble.com/Jackk22'
   },
   {
     id: 3,
     image: IMG3,
-    title: 'Love You Rin :)',
+    title: '...!',
     github: 'https://github.com/22JackkPro',
     demo: 'https://dribbble.com/Jackk22'
   },
   {
     id: 5,
     image: IMG5,
-    title: 'Love You Rin :)',
+    title: '...!',
     github: 'https://github.com/22JackkPro',
     demo: 'https://dribbble.com/Jackk22'
   },
   {
     id: 4,
     image: IMG4,
-    title: 'Love You Rin :)',
+    title: '...!',
     github: 'https://github.com/22JackkPro',
     demo: 'https://dribbble.com/Jackk22'
   },
   {
     id: 6,
     image: IMG6,
-    title: 'Love You Rin :)',
+    title: '...!',
     github: 'https://github.com/22JackkPro',
     demo: 'https://dribbble.com/Jackk22'
   },
